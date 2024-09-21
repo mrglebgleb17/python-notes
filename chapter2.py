@@ -1,5 +1,5 @@
 """py0ch2 2,2,2
-operations 2.1 and inputs
+operations 2.1
 Operators are things that make binary decisions in python with two inputs
 operations are performed with the use of keywords like "and","or" and "not"
 
