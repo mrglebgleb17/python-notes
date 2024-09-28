@@ -1,5 +1,5 @@
 #py0ch11
-#defining functions,lambda functions, args and kwargs
+#defining functions, args and kwargs
 #in python,we use functions like print,input,if and else, but what if we made our own functions?
 #using the define function,we can!
 #ex:
@@ -32,7 +32,12 @@ to do this, we put the word global before the variable we want to change'''
 a=int(input("enter a number"))
 b=int(input("enter a number"))
 def sum_of_nums(num1,num2):
-    print(num1+num2)#num1 and num2 are imaginary variables, and something will have to take the place of it
+    return(num1+num2)#num1 and num2 are imaginary variables, and something will have to take the place of it
+    #the return function can basically turn a function into a variable.
     
-sum_of_nums(a,b)#a and b are sort of 'substituting' for num1 and num2.
+c=sum_of_nums(a,b)#a and b are 'substituting' for num1 and num2.
+#because the return function makes it a varible we assign 'c' to sum_of_nums
+print(c)
+#recursion 
+#sometimes in python, we can have an iterative way to solve a problem, and a recursive way
 
