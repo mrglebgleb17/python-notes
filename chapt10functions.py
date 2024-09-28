@@ -40,4 +40,16 @@ c=sum_of_nums(a,b)#a and b are 'substituting' for num1 and num2.
 print(c)
 #recursion 
 #sometimes in python, we can have an iterative way to solve a problem, and a recursive way
+#in this problem, we need to take an input, and print the sum of all the numbers from 0 to that input.
+#for example, if we wanted to use an 'iterative' way of solving it, we could do this:
 
+'''
+result = 0
+for i in range(n+1):
+    result += i
+return result
+'''
+#all credit for lines 46-49 go to reducible.
+#to check out his github page, go to https://github.com/nipunramk/Reducible
+#to get a full lesson on recursion, go to https://www.youtube.com/watch?v=ngCos392W4w&list=PL7ynjQanu7kooB6tVtJqPNqweqQufU4_V
+#for 
